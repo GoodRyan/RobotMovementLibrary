@@ -1,10 +1,8 @@
 # RobotMovementLibrary
-====================
 
 A library providing functions that allow for robot movement. This includes forward movement, backward movement, and left/right turns.
 
 ## Functions
-=========
 
 `void initializePinOuts()` - Sets the proper pins as output and associates them with their corresponding clocks.
 
@@ -25,3 +23,10 @@ A library providing functions that allow for robot movement. This includes forwa
 `void turnRobotLeft()` - turns the robot left using the leftMotorBackward() and rightMotorForward() functions, allowing for a tight turn.
 
 `void turnRobotRight()` - turns the robot right using the leftMotorForward() and rightMotorBackward() functions, allowing for a tight turn.
+
+## Example Code
+```c
+	// here is some code
+	initMotors();
+	turnRobotLeft();
+```
