@@ -4,9 +4,10 @@ A library providing functions that allow for robot movement. This includes forwa
 
 ## Functions
 
-`void initializePinOuts()` - Sets the proper pins as output and associates them with their corresponding clocks.
-
-`void configureTimer()` - Configures the timers so that the duty cycle is 50% when set/reset mode is used, and inializes all TACCTL's to 101 or reset mode.
+- `void initializePinOuts()` 
+	- Sets the proper pins as output and associates them with their corresponding clocks.
+- `void configureTimer()` 
+	- Configures the timers so that the duty cycle is 50% when set/reset mode is used, and inializes all TACCTL's to 101 or reset mode.
 
 `void leftMotorBackward()` - Moves the left motor backward, this function is hidden from the user.
 
